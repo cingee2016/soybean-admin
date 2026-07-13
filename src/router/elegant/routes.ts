@@ -40,6 +40,17 @@ export const generatedRoutes: GeneratedRoute[] = [
     }
   },
   {
+    name: 'demo',
+    path: '/demo',
+    component: 'layout.base$view.demo',
+    meta: {
+      title: 'demo',
+      i18nKey: 'route.demo',
+      icon: 'mdi:play-circle-outline',
+      order: 2
+    }
+  },
+  {
     name: 'home',
     path: '/home',
     component: 'layout.base$view.home',
